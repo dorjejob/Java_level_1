@@ -1,4 +1,4 @@
-package Lesson_5;
+package Java_level_1.git.Lesson_5;
 
 public class staff {
     String firstLastName;

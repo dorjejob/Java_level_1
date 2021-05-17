@@ -1,4 +1,4 @@
-package Lesson_5;
+package Java_level_1.git.Lesson_5;
 
 public class Firm  {
     public static void main(String[] args) {
@@ -9,11 +9,13 @@ public class Firm  {
         person[3] = new staff("Zinaida Volkova", "Security", "volk_zina@mailbox.com", 892211111, 60000, 65);
         person[4] = new staff("Petr Volkov", "Big Boss", "petrvolkov@mailbox.com", 892200000, 100000, 40);
 
-
+        System.out.println("Сотрудники чей возраст превышает 40 лет: ");
 
         for (int i = 0; i < person.length; i++) {
+
             if (person[i].age > 39)
-                System.out.println("Сотрудники чей возраст превышает 40 лет: " + person[i].firstLastName + "\t" + person[i].position + "\t" + person[i].email + "\t" + person[i].phone + "\t" + person[i].salary + "\t" + person[i].age);
+
+                System.out.println(person[i].firstLastName + "\t" + person[i].position + "\t" + person[i].email + "\t" + person[i].phone + "\t" + person[i].salary + "\t" + person[i].age);
         }
     }
 }
