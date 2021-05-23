@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package Java_level_1.git.Lesson_6;
 
 public class Cats extends Animals {
@@ -9,4 +10,7 @@ public class Cats extends Animals {
     }
     @Override
     public int swim(float distance) { return Animals.SWIM_NONE ;}
+=======
+package Java_level_1.git.Lesson_6;public class Cats {
+>>>>>>> HW_2
 }

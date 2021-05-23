@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package Java_level_1.git.Lesson_6;
 
 public abstract class Animals {
@@ -44,4 +45,7 @@ public abstract class Animals {
     protected int swim(float distance) {
         return (distance <= maxSwim) ? SWIM_OK : SWIM_FAIL;
     }
+=======
+package Java_level_1.git.Lesson_6;public class Animals {
+>>>>>>> HW_2
 }

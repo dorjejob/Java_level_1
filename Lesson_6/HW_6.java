@@ -1,6 +1,7 @@
 package Java_level_1.git.Lesson_6;
 
 public class HW_6 {
+<<<<<<< HEAD
 
     public static void main(String[] args) {
         String tempWinEvent = "Это получилось";
@@ -41,4 +42,6 @@ public class HW_6 {
         System.out.println(nameAnimal + event + eventLength + " м и" + resultEvent);
     }
 
+=======
+>>>>>>> HW_2
 }

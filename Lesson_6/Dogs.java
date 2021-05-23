@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package Java_level_1.git.Lesson_6;
 
 public class Dogs extends Animals {
@@ -8,4 +9,7 @@ public class Dogs extends Animals {
         ++countDog;
     }
 
+=======
+package Java_level_1.git.Lesson_6;public class Dogs {
+>>>>>>> HW_2
 }
